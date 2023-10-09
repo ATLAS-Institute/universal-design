@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Accessible Table</title>
+  <style>
+
+      table, th, td {
+        border-collapse: collapse;
+      }
+
+      table {
+        margin-bottom: 30px;
+      }
+      td {
+        border: 2px solid red;
+        padding-right: 70px;
+        text-align: center
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Accessible Table</h1>
+  </header>
+  <section>
+    <h2>accessible table data</h2>
+
+  <table>
+    <caption>Animals that can kill you</caption>
+    <thead>
+      <tr>
+        <th scope="col">Lions</th>
+        <th scope="col">Tigers</th>
+        <th scope="col">Bears</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Simba</td>
+        <td>Tigger</td>
+        <td>Winney</td>
+      </tr>
+      <tr>
+        <td>Cecil</td>
+        <td>Tygra</td>
+        <td>Baloo</td>
+      </tr>
+      <tr>
+        <td>Mufasa</td>
+        <td>Tony</td>
+        <td>Yogi</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>More animals that can kill you</caption>
+    <thead>
+      <tr>
+        <th scope="col">Kamodo Dragon</th>
+        <th scope="col">Shark</th>
+        <th scope="col">Human</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Blue</td>
+        <td>Bruce</td>
+        <td>betty white</td>
+      </tr>
+      <tr>
+        <td>Echo</td>
+        <td>laser</td>
+        <td>ted bundy</td>
+      </tr>
+      <tr>
+        <td>?</td>
+        <td>baby shark</td>
+        <td>jeff dahmner</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  </section>
+</body>
+</html>
